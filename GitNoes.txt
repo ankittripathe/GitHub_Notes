@@ -114,3 +114,7 @@ git rm <file-name> :- remove file form working directory or staging area
 
 git rm -f <file-name>
 
+********************
+# Remove Git tracking/history or  deletes the .git folder from the project directory 
+Remove-Item -Recurse -Force .git 
+
